@@ -2,20 +2,24 @@
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
         <title>Register</title>
     </head>
     <body>
-        <h1>Register</h1>
-        <br>
-        <form action="register" method="post">
-            <input type="text" placeholder="Prenom" name="prenom">
+        <div class="container center">
+            <h1>Register</h1>
             <br>
-            <input type="password" placeholder="Mot de passe" name="mdp">
-            <br>
-            <input type="password" placeholder="Confirmation mot de passe" name="mdp_confirmation">
-            <br>
-            <br>
-            <input type="submit" value="S'inscrire"> 
-        </form>
+            <form action="register" method="post">
+                <input class="form form-control resize" type="text" placeholder="Prenom" name="prenom">
+                <br>
+                <input class="form form-control resize" type="password" placeholder="Mot de passe" name="mdp">
+                <br>
+                <input class="form form-control resize" type="password" placeholder="Confirmation mot de passe" name="mdp_confirmation">
+                <br>
+                <br>
+                <input class="btn btn-success resize" type="submit" value="S'inscrire"> 
+            </form>
+        </div>
     </body>
 </html>
